@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fac{
+            font-size: 40px;
+            text-decoration: overline;
+        }
+        .faculty{
+            margin-left: 100px;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 100px;
+            justify-content: space-evenly;
+        }
+        .flex-item{
+            width: 200px;
+            height: 200px;
+            background-color: lightskyblue;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 2em;
+            color: black;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+
+
+        #img1{
+            clip-path: circle(50% at 50% 50%);
+            margin-top: 10px;
+            height: 130px;
+        }
+        div{
+            font-size: 9px;
+        }
+    </style>
+</head>
+<body>
+    <div class="faculty">
+        <h3 class="fac">Faculty</h3>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item"><img id="img1" src="media/bb.png" alt=""><br> Dr Pon Harshawardhan</div>
+        <div class="flex-item"><img id="img1" src="media/bb.png" alt=""><br>Vaibhav Shrivastav</div>
+        <div class="flex-item"><img id="img1" src="media/bb.png" alt=""><br>Aditya Kumar <br>(Web Dev Lead)</div>
+        <div class="flex-item"><img id="img1" src="media/bb.png" alt=""><br>4</div>
+    </div>
+</body>
+</html>

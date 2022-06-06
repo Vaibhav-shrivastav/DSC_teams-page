@@ -11,12 +11,13 @@
 
 }
 .text{
-     background-color: aqua;
+     background-color: white;
      margin-left: 175px;
      margin-top: 300px;
      margin-right: 75px;
      text-align: center;
      border: black solid;
+     border-radius: 20px;
 }
 .image{
      margin-top: 170px;
@@ -29,19 +30,34 @@
 #down{
     text-align: center;
 }
-.arrow{
+.arrow1{
     text-align: center;
+    /* margin-top: 10px; */
+    object-position: bottom;
 }
 .head1{
     text-align: center;
     border: black solid;
-    margin-left: 650px;
-    margin-right: 650px;
-    background-color: aqua;
+    margin-left: 625px;
+    margin-right: 625px;
+    padding: 4px;
+    background-color: rgb(12, 35, 209);
+    font-family: 'Poppins', Courier, monospace;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 3px black;
 }
 .fac{
-    font-size: 40px;
-    text-decoration: overline;
+    font-size: 34px;
+    /* text-decoration: overline; */
+    color: black;
+    padding: 5px;
+    background-color: rgb(54, 247, 250);
+    width: 30%;
+    border-radius: 15px;
+    font-family: 'Kdam Thmor Pro', Courier, monospace;
+
 }
 .faculty{
     margin-left: 100px;
@@ -49,19 +65,23 @@
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 80px;
     justify-content: space-evenly;
+    font-family: 'Ubuntu', Courier, monospace;
+    font-size: 10px;
 }
 .flex-item{
-    width: 150px;
-    height: 150px;
-    background-color: lightskyblue;
+    width: 210px;
+    height: 210px;
+    background-color: white;
     border: 2px solid darkblue;
+    border-radius: 5px;
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: black;
     font-weight: bold;
     line-height: 1.4;
+    box-shadow: 5px 6px;
 }
 #img1{
     height: 100px;
@@ -70,34 +90,91 @@
     margin-left: 100px;
 }
 .CC{
-    font-size: 40px;
-    text-decoration: overline;
+    font-size: 34px;
+    /* text-decoration: overline; */
+    color: black;
+    padding: 5px;
+    background-color: rgb(54, 247, 250);
+    width: 30%;
+    border-radius: 15px;
+    font-family: 'Kdam Thmor Pro', Courier, monospace;
+
 }
 .Tech,.manage,.Design,.web,.content,.social,.outreach{
     margin-left: 100px;
 }
 .Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
-    font-size: 40px;
-    text-decoration: overline;
+    font-size: 34px;
+    /* text-decoration: overline; */
+    color: black;
+    padding: 5px;
+    background-color: rgb(54, 247, 250);
+    width: 32%;
+    border-radius: 15px;
+    font-family: 'Kdam Thmor Pro', Courier, monospace;
 }
 .leads{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 120px;
     justify-content: center;
+    line-height: 1.4;
+    font-family: 'Ubuntu', Courier, monospace;
+    font-size: 10px;
 }
-.leads1{
-    width: 150px;
-    height: 150px;
-    background-color: lightskyblue;
+.flex-item-ad{
+    width: 165px;
+    height: 165px;
+    background-color: white;
     border: 2px solid darkblue;
+    border-radius: 5px;
     text-align: center;
-    font-size: 2em;
-    color: white;
+    color: black;
     font-weight: bold;
     line-height: 1.4;
+    font-family: 'Ubuntu', Courier, monospace;
+    font-size: 10px;
+    
+}
+.leads1{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family: 'Ubuntu', Courier, monospace;
+    font-size: 22px;
 }
 .foot{
     text-align: center;
+    color: white;
 }
-
-
+#img1{
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 10px;
+    height: 130px;
+}
+#img1-ad{
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 3px;
+    height: 110px;
+}
+#team-writeup{
+    font-family: 'Kdam Thmor Pro', Courier, monospace;
+    font-size: 30px;
+}
+#team-subtitle{
+    font-family: 'Quicksand', Courier, monospace;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    
+}
+span{
+    font-size: 15px;
+}
