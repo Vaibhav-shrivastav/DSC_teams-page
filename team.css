@@ -268,7 +268,7 @@ span{
     }
     .fac{
         padding: 4px;
-        width: 20%;
+        width: 25%;
         font-size: 20px;
     }
     .CC,.Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
@@ -294,3 +294,77 @@ span{
         font-size: 17px;
     }
  }
+@media only screen and (min-width:500px) and (max-width:1180px){
+    .float-child1,.float-child2{
+        width: 50%;
+    }
+    .text{
+        margin-top: 290px;
+        margin-left: 15px;
+        margin-right:5px;
+
+    }
+    #team-writeup,#team-subtitle{
+        font-size: 20px;
+    }
+    .header{
+        padding: 15px;
+    }
+    .logo{
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+
+    }
+    .image{
+        margin-left: 100px;
+        margin-right: 40px;
+        margin-top: 250px;
+        margin-bottom: 130px;
+
+    }
+    #team_image{
+        height: 200px;
+    }
+    .arrow1{
+        text-align: start;
+        margin-left: 400px;
+    }
+    #down1{
+        height: 50px;
+    }
+    .head1{
+        margin-left: 250px;
+        margin-right: 250px;
+        font-size: 40px;
+    }
+    .faculty,.club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
+        margin-left: 40px;
+    }
+    .fac{
+        padding: 4px;
+        width: 25%;
+        font-size: 35px;
+    }
+    .CC,.Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
+        width: 55%;
+        font-size: 35px;
+    }
+    .flex-container,.leads{
+        margin-left: 300px;
+        font-size: 10px;
+        display: block
+    }
+    .flex-item,.leads1,.flex-item-ad,.flex-item-ad1{
+        height: 250px;
+        width: 250px;
+        box-shadow: 3px 4px rgb(255, 83, 195);
+        margin-bottom: 25px;
+    }
+    #img1{
+        height: 170px;
+    }
+    .foot{
+        text-align: center;
+        font-size: 25px;
+    }
+}
