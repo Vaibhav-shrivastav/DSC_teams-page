@@ -225,13 +225,13 @@ span{
         width: 100%;
     }
     .text{
-        margin-top: 100px;
+        margin-top: 150px;
         margin-left: 5px;
-        margin-right: 230px;
+        margin-right:5px;
 
     }
     #team-writeup,#team-subtitle{
-        font-size: 10px;
+        font-size: 20px;
     }
     .header{
         padding: 10px;
@@ -242,55 +242,55 @@ span{
 
     }
     .image{
-        margin-left: 30px;
-        margin-right: 100px;
+        margin-left: 85px;
+        margin-right: 40px;
         margin-top: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 130px;
 
     }
     #team_image{
-        height: 125px;
+        height: 200px;
     }
     .arrow1{
         text-align: start;
-        margin-left: 80px;
+        margin-left: 180px;
     }
     #down1{
-        height: 30px;
+        height: 40px;
     }
     .head1{
-        margin-left: 5px;
-        margin-right: 230px;
-        font-size: 20px;
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 25px;
     }
     .faculty,.club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
-        margin-left: 5px;
+        margin-left: 40px;
     }
     .fac{
         padding: 4px;
-        width: 17%;
-        font-size: 17px;
+        width: 20%;
+        font-size: 20px;
     }
     .CC,.Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
-        width: 35%;
-        font-size: 17px;
+        width: 55%;
+        font-size: 20px;
     }
     .flex-container,.leads{
-        margin-left: 30px;
+        margin-left: 100px;
         font-size: 5px;
         display: block;
     }
     .flex-item,.leads1,.flex-item-ad,.flex-item-ad1{
-        height: 130px;
-        width: 130px;
+        height: 180px;
+        width: 180px;
         box-shadow: 3px 4px rgb(255, 83, 195);
         margin-bottom: 25px;
     }
     #img1{
-        height: 80px;
+        height: 120px;
     }
     .foot{
         text-align: initial;
-        font-size: 8.4px;
+        font-size: 17px;
     }
  }
