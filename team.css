@@ -218,7 +218,7 @@ span{
     box-shadow: 5px 5px rgb(255, 165, 211);
 
  }
- @media only screen and (min-width: 350px) and (max-width:600px){
+ @media only screen and (min-width: 100px) and (max-width:600px){
     .float-child1,.float-child2{
         width: 100%;
     }
@@ -226,6 +226,7 @@ span{
         margin-top: 100px;
         margin-left: 5px;
         margin-right: 230px;
+
     }
     #team-writeup,#team-subtitle{
         font-size: 10px;
@@ -235,6 +236,8 @@ span{
     }
     .logo{
         font-size: 14px;
+        text-shadow: 1px 1px black;
+
     }
     .image{
         margin-left: 30px;
