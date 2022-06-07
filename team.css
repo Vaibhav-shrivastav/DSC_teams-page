@@ -18,11 +18,13 @@
      text-align: center;
      border: black solid;
      border-radius: 20px;
+     margin-bottom: 50px;
 }
 .image{
      margin-top: 170px;
      margin-right: 225px;
      margin-left: 150px;
+     margin-bottom: 100px;
 }
 #team_image{
     height: 350px;
