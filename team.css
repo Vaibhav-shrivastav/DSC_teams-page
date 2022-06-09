@@ -20,15 +20,17 @@
     background-color: aqua;
     color: black;
     padding: 15px;
+    transition: .3s;
 }
 #box2{
     background-color: whitesmoke;
     color: black;
     padding: 15px;
+    transition: .3s;
 }
-
-
-/* --- TEST ----  */
+#box1:hover,#box2:hover{
+    transform: scale(1.1);
+}
 *{
     scroll-behavior: smooth;
 }
@@ -118,7 +120,10 @@
     font-weight: bold;
     line-height: 1.4;
     box-shadow: 5px 6px rgb(255, 83, 195);
-
+    transition: .3s;
+}
+.flex-item:hover,.leads1:hover,.flex-item-ad:hover,.flex-item-ad1:hover{
+    transform: scale(1.1);
 }
 #img1{
     height: 100px;
@@ -172,6 +177,7 @@
     font-family: 'Ubuntu', Courier, monospace;
     font-size: 16px;
     box-shadow: 5px 5px rgb(255, 165, 211);
+    transition: .3s;
     
 }
 .leads1{
@@ -187,6 +193,7 @@
     font-family: 'Ubuntu', Courier, monospace;
     font-size: 22px;
     box-shadow: 5px 6px rgb(255, 83, 195);
+    transition: .3s;
 }
 .foot{
     text-align: center;
@@ -250,6 +257,7 @@ span{
     font-weight: bold;
     line-height: 1.4;
     box-shadow: 5px 5px rgb(255, 165, 211);
+    transition: .3s;
 
  }
  @media only screen and (min-width: 100px) and (max-width:600px){
