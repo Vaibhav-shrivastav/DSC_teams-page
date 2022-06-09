@@ -139,7 +139,7 @@
     font-weight: bold;
     line-height: 1.4;
     font-family: 'Ubuntu', Courier, monospace;
-    font-size: 10px;
+    font-size: 16px;
     box-shadow: 5px 5px rgb(255, 165, 211);
     
 }
@@ -160,6 +160,7 @@
 .foot{
     text-align: center;
     color: white;
+    font-family: 'Trebuchet MS';
 }
 #img1{
     clip-path: circle(50% at 50% 50%);
@@ -245,15 +246,15 @@ span{
         margin-left: 85px;
         margin-right: 40px;
         margin-top: 30px;
-        margin-bottom: 130px;
+        margin-bottom: 130px; 
 
     }
     #team_image{
         height: 200px;
     }
     .arrow1{
-        text-align: start;
-        margin-left: 180px;
+        text-align: start; 
+        margin-left: 180px; 
     }
     #down1{
         height: 40px;
@@ -263,28 +264,48 @@ span{
         margin-right: 90px;
         font-size: 25px;
     }
-    .faculty,.club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
-        margin-left: 40px;
+    .faculty{
+        margin-left: 150px;
+    }
+    .club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
+        margin-left: 90px; 
     }
     .fac{
         padding: 4px;
-        width: 25%;
+        width: 33%;
         font-size: 20px;
+        
     }
     .CC,.Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
-        width: 55%;
+        width: 70%;
         font-size: 20px;
+        text-align: center;
     }
     .flex-container,.leads{
         margin-left: 100px;
         font-size: 5px;
         display: block;
     }
-    .flex-item,.leads1,.flex-item-ad,.flex-item-ad1{
+    #img1-ad{
+        height: 120px;
+        margin-top: 15px;
+    }
+    .flex-item-ad{
         height: 180px;
         width: 180px;
         box-shadow: 3px 4px rgb(255, 83, 195);
         margin-bottom: 25px;
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .flex-item,.leads1,.flex-item-ad1{
+        height: 180px;
+        width: 180px;
+        box-shadow: 3px 4px rgb(255, 83, 195);
+        margin-bottom: 25px;
+        font-size: 14px;
     }
     #img1{
         height: 120px;
@@ -297,6 +318,17 @@ span{
 @media only screen and (min-width:500px) and (max-width:1180px){
     .float-child1,.float-child2{
         width: 50%;
+    }
+    #img1-ad{
+        height: 160px;
+        margin-top: 20px;
+    }
+    .flex-item-ad{
+        height: 180px;
+        width: 180px;
+        box-shadow: 3px 4px rgb(255, 83, 195);
+        margin-bottom: 25px;
+        font-size: 20px;
     }
     .text{
         margin-top: 290px;
@@ -337,16 +369,21 @@ span{
         margin-right: 250px;
         font-size: 40px;
     }
-    .faculty,.club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
-        margin-left: 40px;
+    .faculty{
+        margin-left: 350px;
+        text-align: center;
+    }
+    .club-coordinator,.Tech,.manage,.Design,.web,.content,.social,.outreach{
+        margin-left: 260px;
+        text-align: center;
     }
     .fac{
         padding: 4px;
-        width: 25%;
+        width: 30%;
         font-size: 35px;
     }
     .CC,.Tech1,.manage1,.Design1,.web1,.content1,.social1,.outreach1{
-        width: 55%;
+        width: 60%;
         font-size: 35px;
     }
     .flex-container,.leads{
